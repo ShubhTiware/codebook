@@ -1,0 +1,9 @@
+To run Simple JSON server: 
+npx json-server data/db.json --port 8000
+
+Start JSON server (with JSON server Auth as middleware) :
+npm install -g json-server
+json-server data/db.json ./node_modules/json-server-auth --port 8000
+
+Start server.js :
+node server.js
